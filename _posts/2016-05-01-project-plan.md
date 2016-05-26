@@ -7,7 +7,7 @@ Setting up the project.
 
 # Action Plan
 
-- [Create a New Project]({_posts/2016-05-21-create-project.md})
+- [Create a New Project](_posts/2016-05-21-create-project.md)  
   Use a Maven Archetype (template) for setting up the initial structure
 - Define BDD Scenarios
 - Create Local git repository
