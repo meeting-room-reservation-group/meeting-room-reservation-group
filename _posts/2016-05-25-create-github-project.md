@@ -1,16 +1,11 @@
 ---
 layout: post
-title: Create a New Java Project
+title: Create a GitHub repository
 ---
 
-Start the new project with the Maven Archetype (template) for creating a Jersey RESTful API Service.
 
 
-# Action Plan
+# Create Git Repository on GitHub
 
 
-# Create Git Repository
-
-# Add Content
-
- 
+# Clone GitHub Git Repository 
