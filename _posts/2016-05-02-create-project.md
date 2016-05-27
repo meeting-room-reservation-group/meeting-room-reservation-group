@@ -37,6 +37,6 @@ Create the [git ignore](http://verhagen.github.io/git-tip-ignore-files/) file.
 - TODO
 
 
-## Add the Project Files to the Local Git Repository
+## Add and Commit the Project Files to the Local Git Repository
 
 - TODO
