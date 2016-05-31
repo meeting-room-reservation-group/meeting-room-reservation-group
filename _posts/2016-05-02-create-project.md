@@ -21,13 +21,15 @@ of the initial project structure.
 __Using Eclipse__
 
 - Use Eclipse menu: _File > New > Project..._
-- The dialog _New Wizard_ will open
+- The dialog _New Wizard_ will open  
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-00.jpg)
 - Select from the tree on the left _Maven > Maven Project_
 - Use button __Next__ to continue
 - Remove the check box _Use default Workspace location_
 - Enter the _Location_ where the git project should be created  
   In this example there is the user john, who has a git directory, in which he places all his  
-  git projects. The name of his new git project is `meeting-room-reservation-services`
+  git projects. The name of his new git project is `meeting-room-reservation-services`  
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-02.jpg)
 - Use button __Next__ to continue
 - Enter in the field _Filter_ the text __jersey-quickstart-webapp__  
   After several seconds there should appear two entries
