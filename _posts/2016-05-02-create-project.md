@@ -26,15 +26,16 @@ __Using Eclipse__
 ![Eclipse New Wizard]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-00.jpg)
 - Use button __Next__ to continue
 - Remove the check box _Use default Workspace location_
-- Enter the _Location_ where the git project should be created  
-  In this example there is the user john, who has a git directory, in which he places all his  
-  git projects. The name of his new git project is `meeting-room-reservation-services`  
+- Enter the _Location_ where the (git) project should be created  
+  In this example there is the user john, who has a git directory, in which he places all his (git) projects. The name of this new project is `meeting-room-reservation-services`  
 ![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-01.jpg)
 - Use button __Next__ to continue
 - Enter in the field _Filter_ the text __jersey-quickstart-webapp__  
-  After several seconds there should appear two entries
+  After several seconds there should appear two entries  
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-02.jpg)
 - Choose the 2nd edition __2.23__  
-  Details about the Archetype are shown in the description window
+  Details about the Archetype are shown in the description window  
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-03.jpg)
 - Use button __Next__ to continue
 - The dialog will show _New Maven Wizard - Specify Archetype parameters_
 - Enter as _Group Id_ the unique reverse url, of your github account  
@@ -44,8 +45,9 @@ __Using Eclipse__
   __TIP__ Keep this the same as the (git) project name, for easy association
   __WARNING__ Group id and artifact id should be inline with Maven naming conventions, all lower-case letters, words separated with dashes.
 - Enter the (Java) _Package_ name `com.github.<account>.mrrs`  
-  Here we create an abbreviation `mrrs`, because otherwise the package name get very long.
-
+  Here we create an abbreviation `mrrs`, because otherwise the package name get very long.  
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-04.jpg)
+- Use button __Finish__ so the project structure is created, for this Maven Archetype
 
 __TIP__: In case the Maven Archetype is not found, [add the Maven Archetypes Catalog](http://verhagen.github.io/eclipse-tip-add-maven-archetypes-catalog/) `https://repo1.maven.org/maven2/archetype-catalog.xml` in Eclipse.
 
