@@ -22,8 +22,8 @@ __Using Eclipse__
 
 - Use Eclipse menu: _File > New > Project..._
 - The dialog _New Wizard_ will open  
-![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-00.jpg)
-- Select from the tree on the left _Maven > Maven Project_
+- Select from the tree _Maven > Maven Project_
+![Eclipse New Wizard]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-00.jpg)
 - Use button __Next__ to continue
 - Remove the check box _Use default Workspace location_
 - Enter the _Location_ where the git project should be created  
