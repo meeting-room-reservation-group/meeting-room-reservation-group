@@ -29,7 +29,7 @@ __Using Eclipse__
 - Enter the _Location_ where the git project should be created  
   In this example there is the user john, who has a git directory, in which he places all his  
   git projects. The name of his new git project is `meeting-room-reservation-services`  
-![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-02.jpg)
+![Eclipse Preferences]({{ site.url }}/images/eclipse/eclipse-new-project-maven-project-01.jpg)
 - Use button __Next__ to continue
 - Enter in the field _Filter_ the text __jersey-quickstart-webapp__  
   After several seconds there should appear two entries
