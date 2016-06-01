@@ -22,7 +22,7 @@ All the services will be created in the [Resource Oriented Architecture](https:/
 
 ## Frameworks / Libraries
 
-__Main__
+__General__
 
 - [Jersey](https://jersey.java.net/)
 
