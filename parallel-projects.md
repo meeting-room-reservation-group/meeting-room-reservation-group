@@ -9,7 +9,7 @@ Developers who follow this group and have created their own GitHub git project, 
 {% for project in site.data.parallel-projects %}
   <li>
     <a href="https://github.com/{{ project.member }}">
-      {{ project.repo }}
+      {{ project.member }}
     </a>
   </li>
 {% endfor %}
