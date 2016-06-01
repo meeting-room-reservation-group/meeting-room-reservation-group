@@ -85,13 +85,21 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 
 __Verify the Web Application with a (Graphical) Web Browser__
 
-- Open a browser (Chrome, Firefox, Opera, Safari, or other) and go to [http://localhost:8080](http://localhost:8080) this should show the content of the `index.jsp`  
+- Open a browser (Chrome, Firefox, Opera, Safari, or other) and go to [http://localhost:8080](http://localhost:8080) this should show the page as seen below (this is actually the `index.jsp` of the project)  
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-02.jpeg)
-
-
+- Check if the Web Application _Resource_ exists [http://localhost:8080/webapi/myresource](http://localhost:8080/webapi/myresource)  
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-03.jpeg)
 
 
 __Verify the Web Application with a (Text) Web Browser__
 
 Use [curl](https://curl.haxx.se/) to see the same content, but just in plain text. Use the option `-v` to also see all the request / replay details.
 
+- Open a command terminal and enter the curl command `curl  localhost:8080`  
+  This should show the content of the html page
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04.jpeg)
+
+- Use curl to get the content of the resource `curl  localhost:8080/webapi/myresource`  
+  This should show the content of the html page  
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05.jpeg)
+- Use curl to get the content of the resource in verbose mode `curl  -v  localhost:8080/webapi/myresource`  
