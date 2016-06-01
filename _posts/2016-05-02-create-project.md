@@ -100,7 +100,7 @@ Use [curl](https://curl.haxx.se/) to see the same content, but just in plain tex
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04.jpeg)
 
 - Use curl to get the content of the resource `curl  localhost:8080/webapi/myresource`  
-  This should show the content of the html page  
+  This should show the content of the resource (just the text `Got it!`)  
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04b.jpeg)
 - Use curl to get the content of the resource in _verbose_ mode `curl  -v  localhost:8080/webapi/myresource`. This will show the request and response headers as well.  
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04c.jpeg)
