@@ -44,5 +44,5 @@ __Testing__
 - Continuous Integration (CI) / Continuous Delivery (CD) / Continuous Deployment (CD)  
   [Travis-CI](https://travis-ci.org/)
 - Code Editor  
-  [Eclipse](http://www.eclipse.org/) not required, but explained in detail how to use certain features.
-  Or any editor one like to use.
+  [Eclipse](http://www.eclipse.org/)  
+  __INFO__ Eclipse is _not_ required, but several details will be explained by using Eclipse as the code editor.
