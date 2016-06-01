@@ -58,5 +58,16 @@ TODO
 
 ### Verify the Project
 
-- TODO
+The project created through the Maven Archetype `jersey-quickstart-webapp` should now look similar as seen in the screenshot. Make sure the Eclipse Perspective _Java EE_ is active.   
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00.jpeg)
 
+__INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse-tip-marketplace-add-jetty/) is installed.
+
+- The Markers window shows one _JSP Problem_, to fix this add the Maven dependency `javax.servlet-api`
+- Open the file `pom.xml` and add the required dependency
+
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>javax.servlet-api</artifactId>
+		<version>3.1.0</version>
+	</dependency>
