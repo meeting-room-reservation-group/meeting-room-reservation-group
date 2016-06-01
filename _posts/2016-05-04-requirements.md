@@ -2,7 +2,7 @@
 layout: post
 title: Requirements
 ---
-Similar as in a real work scenario, some vague requirements are given.
+Similar as in a real world scenario, some vague requirements are given.
 
 
 ## Requirements
