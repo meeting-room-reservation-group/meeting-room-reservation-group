@@ -22,7 +22,7 @@ Every project should have a `README.md` which explains the general idea of the p
 
 __TIP__ The file is written in [MarkDown](https://guides.github.com/features/mastering-markdown/) format. A simple text format with easy formatting rules.
 
-__Sample README.md__
+Sample `README.md`
 
 {% highlight markdown %}
 # Project Title
