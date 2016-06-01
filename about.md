@@ -35,14 +35,14 @@ __Testing__
 
 ## Tools
 
-- Source Code Management
+- Source Code Management  
   [git](https://git-scm.com/)
-- Source Code Sharing
+- Source Code Sharing  
   [GitHub](https://github.com/)
-- Build Tool
+- Build Tool  
   [Maven](https://maven.apache.org/)
-- Continuous Integration (CI) / Continuous Delivery (CD) / Continuous Deployment (CD)
+- Continuous Integration (CI) / Continuous Delivery (CD) / Continuous Deployment (CD)  
   [Travis-CI](https://travis-ci.org/)
-- Code Editor
+- Code Editor  
   [Eclipse](http://www.eclipse.org/) not required, but explained in detail how to use certain features.
   Or any editor one like to use.
