@@ -61,8 +61,6 @@ TODO
 The project created through the Maven Archetype `jersey-quickstart-webapp` should now look similar as seen in the screenshot. Make sure the Eclipse Perspective _Java EE_ is active.   
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00.jpeg)
 
-__INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse-tip-marketplace-add-jetty/) is installed.
-
 - The Markers window shows one _JSP Problem_, to fix this add the Maven dependency `javax.servlet-api`
 - Open the file `pom.xml` and add the required dependency  
 {% highlight xml %}
@@ -76,6 +74,8 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 - Save the modification, this will trigger Eclipse to check the Maven dependencies and when changed, rebuild the project again. This will remove the error from the _Markers_ window.
 
 __Run the Web Application Project__
+
+__INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse-tip-marketplace-add-jetty/) is installed.
 
 - Go to the window _Project Explorer_ and on the project (here _meeting-room-reservation-services_) use the context menu: _Run As > Run with Jetty_
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-00.jpeg)
