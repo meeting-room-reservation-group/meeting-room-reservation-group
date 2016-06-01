@@ -71,3 +71,26 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 		<artifactId>javax.servlet-api</artifactId>
 		<version>3.1.0</version>
 	</dependency>
+
+- Save the modification, this will trigger Eclipse to check the Maven dependencies and when changed, rebuild the project again. This will remove the error from the _Markers_ window.
+
+__Run the Web Application Project__
+
+- Go to the window _Project Explorer_ and on the project (here _meeting-room-reservation-services_) use the context menu: _Run As > Run with Jetty_
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-00.jpeg)
+- This will launch Jetty as seen in the console
+  __WARNING__ Make sure you see the red line ending with: _SelectChannelConnector@0.0.0.0:8080_ This indicates that Jetty has successfully started.
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01.jpeg)
+
+__Verify the Web Application with a (Graphical) Web Browser__
+
+- Open a browser (Chrome, Firefox, Opera, Safari, or other) and go to [http://localhost:8080](http://localhost:8080) this should show the content of the `index.jsp`  
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-02.jpeg)
+
+
+
+
+__Verify the Web Application with a (Text) Web Browser__
+
+Use [curl](https://curl.haxx.se/) to see the same content, but just in plain text. Use the option `-v` to also see all the request / replay details.
+
