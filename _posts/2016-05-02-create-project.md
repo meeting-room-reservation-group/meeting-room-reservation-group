@@ -101,5 +101,5 @@ Use [curl](https://curl.haxx.se/) to see the same content, but just in plain tex
 
 - Use curl to get the content of the resource `curl  localhost:8080/webapi/myresource`  
   This should show the content of the html page  
-![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05.jpeg)
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04b.jpeg)
 - Use curl to get the content of the resource in verbose mode `curl  -v  localhost:8080/webapi/myresource`  
