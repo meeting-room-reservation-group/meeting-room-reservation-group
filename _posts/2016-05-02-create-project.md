@@ -67,11 +67,11 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 - Open the file `pom.xml` and add the required dependency
 
 {% highlight xml %}
-	<dependency>
-		<groupId>javax.servlet</groupId>
-		<artifactId>javax.servlet-api</artifactId>
-		<version>3.1.0</version>
-	</dependency>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+    </dependency>
 {% endhighlight %}
 
 - Save the modification, this will trigger Eclipse to check the Maven dependencies and when changed, rebuild the project again. This will remove the error from the _Markers_ window.
