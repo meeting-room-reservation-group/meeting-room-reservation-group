@@ -12,7 +12,7 @@ In this group we develop together a small application _Meeting Room Reservation 
 
 ### Business Requirements
 
-The business requirements should be explained in the form of [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example) use-cases. These _use-cases_ will be written in the [Cucumber](https://cucumber.io/) - [Gherkin](https://cucumber.io/docs/reference) format. The idea is that everyone should be able to read those _feature_ files. Each feature exists of one or multiple _scenarios_. A _scenario_ contains a concrete example, of some requirement.
+The business requirements should be explained in the form of [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example) use-cases. These _use-cases_ will be written in the [Cucumber](https://cucumber.io/) - [Gherkin](https://cucumber.io/docs/reference) format. The idea is that everyone should be able to read those _feature_ files. Each feature exists of one or more _scenarios_. Each _scenario_ contains at least one concrete example, of some requirement.
 
 
 ### Architecture
