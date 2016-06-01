@@ -108,6 +108,7 @@ Use [curl](https://curl.haxx.se/) to see the same content, but just in plain tex
 ## Jetty Commands
 
 In the Jetty console, you can enter commands like:
+
 - help - Shows the available commands
 - stop - Stops Jetty (or use the small red stop rectangle, from the speed button bar menu)
 - restart - reloads the Web Application(s) that are deployed in this Jetty instance
