@@ -7,9 +7,9 @@ Similar as in a real work scenario, some vague requirements are given.
 
 ## Requirements
 
-For planning a meeting, of # persons the system should show the available rooms
+For planning a meeting of # persons the system should show the available rooms.
 
-There are multiple rooms. Each room can have facilities, like computer with small monitor, computer with large monitor, whiteboard, beamer, etc
+There are multiple rooms. Each room can have facilities, like computer with small monitor, computer with large monitor, whiteboard, beamer, etc.
 
 Each room has a certain number of chairs.
 
