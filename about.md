@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-In this group we develop together a small application _Meeting Room Reservation (System)_. The idea is to show all small steps in blog posts, so everyone can follow all the steps needed in creating some RESTful API services.
+In this group we develop together a small application _Meeting Room Reservation (System)_. The idea is to show many steps in blog posts, so everyone should be able start the same or create a own project that provide RESTful API services.
 
 
 ## Project Overview
@@ -12,7 +12,7 @@ In this group we develop together a small application _Meeting Room Reservation 
 
 ### Business Requirements
 
-The business requirements will be written down in the form of [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example) use-cases.
+The business requirements will be written down in the form of [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example) use-cases. These will be written in [Cucumber](https://cucumber.io/) [Gherkin](https://cucumber.io/docs/reference) format. Everyone should be able to read them.
 
 
 ### Architecture
@@ -29,7 +29,8 @@ __Main__
 __Testing__
 
 - [Cucumber](https://cucumber.io/)  
-  WikiPedia [Cucumber](https://en.wikipedia.org/wiki/Cucumber_(software))
+  WikiPedia [Cucumber](https://en.wikipedia.org/wiki/Cucumber_(software))  
+  [Gherkin](https://cucumber.io/docs/reference)
 
 
 ## Tools
