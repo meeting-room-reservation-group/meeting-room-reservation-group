@@ -64,8 +64,7 @@ The project created through the Maven Archetype `jersey-quickstart-webapp` shoul
 __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse-tip-marketplace-add-jetty/) is installed.
 
 - The Markers window shows one _JSP Problem_, to fix this add the Maven dependency `javax.servlet-api`
-- Open the file `pom.xml` and add the required dependency
-
+- Open the file `pom.xml` and add the required dependency  
 {% highlight xml %}
     <dependency>
         <groupId>javax.servlet</groupId>
