@@ -56,8 +56,8 @@ __INFO__ Git only creates one directory `.git`, which is located in the root of 
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-create-local-git-repo-04.jpeg)
 - Use the context menu: _Team > Commit..._  
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-create-local-git-repo-05.jpeg)
-- The dialog _Commit Chnages_ will be shown
-- Fill in the _Cimmit message_ __Initial files__
+- The dialog _Commit Changes_ will be shown
+- Fill in the _Commit message_ __Initial files__
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-create-local-git-repo-06.jpeg)
 - Verify that only _Files_ only those files are listed that should be added to the git repository
 - Select all the check boxes, for the files that should be added, by this commit 
