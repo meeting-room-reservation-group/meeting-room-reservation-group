@@ -103,3 +103,13 @@ Use [curl](https://curl.haxx.se/) to see the same content, but just in plain tex
   This should show the content of the html page  
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-04b.jpeg)
 - Use curl to get the content of the resource in verbose mode `curl  -v  localhost:8080/webapi/myresource`  
+
+
+## Jetty Commands
+
+In the Jetty console, you can enter commands like:
+- help - Shows the available commands
+- stop - Stops Jetty (or use the small red stop rectangle, from the speed button bar menu)
+- restart - reloads the Web Application(s) that are deployed in this Jetty instance
+
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05.jpeg)
