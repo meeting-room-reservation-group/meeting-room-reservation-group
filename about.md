@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-In this group we develop together a small application _Meeting Room Reservation (System)_. The idea is to show many steps, from gathering _Business Requirements_, setting up the project, doing _Test Driven Development_, adding the project to GitHub, etc, etc, till _Deployment_. All done in blog posts, so everyone should be able start, and follow these steps. By follow the blogs, all steps are shown. But it is also good for looking up how things are done, in a complete (mini) project.
+In this group we develop together a small application _Meeting Room Reservation (System)_. The idea is to show many steps, from gathering _Business Requirements_, setting up the project, doing _Test Driven Development_, adding the project to GitHub, etc, etc, till _Deployment_. All done in blog posts, so everyone should be able start, and follow these steps.
+
+But it can also be used, to lookup how certain things are done, like using _Cucumber Features_, or _Continuous Integration_ by [Travis-CI](https://travis-ci.org/) in a complete (mini) project.
 
 
 ## Project Overview
