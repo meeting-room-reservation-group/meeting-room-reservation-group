@@ -29,8 +29,19 @@ __Main__
 __Testing__
 
 - [Cucumber](https://cucumber.io/)  
-  WikiPedia[Cucumber](https://en.wikipedia.org/wiki/Cucumber_(software))
+  WikiPedia [Cucumber](https://en.wikipedia.org/wiki/Cucumber_(software))
 
 
 ## Tools
 
+- Source Code Management
+  [git](https://git-scm.com/)
+- Source Code Sharing
+  [GitHub](https://github.com/)
+- Build Tool
+  [Maven](https://maven.apache.org/)
+- Continuous Integration (CI) / Continuous Delivery (CD) / Continuous Deployment (CD)
+  [Travis-CI](https://travis-ci.org/)
+- Code Editor
+  [Eclipse](http://www.eclipse.org/) not required, but explained in detail how to use certain features.
+  Or any editor one like to use.
