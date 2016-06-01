@@ -11,7 +11,7 @@ Developers who follow this group and have created their own GitHub git project, 
     <a href="https://github.com/{{ project.member }}">
       {{ project.member }}
     </a>
-    <a href="https://github.com/{{ project.repo }}">
+    <a href="https://github.com/{{ project.member }}/{{ project.repo }}">
       {{ project.repo }}
     </a>
   </li>
