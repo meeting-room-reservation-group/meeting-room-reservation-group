@@ -21,4 +21,4 @@ Similar as in most real world scenarios, some vague requirements are given.
 
 Try to make good feature(s), with [SMART](https://en.wikipedia.org/wiki/SMART_criteria) scenarios, containing concrete examples.
 
-In [Requirements Continued]({% post_url 2016-05-04-requirements-continued %}) we will try to answer the questions.
+In [Requirements Continued]({% post_url 2016-05-07-requirements-continued %}) we will try to answer the questions.
