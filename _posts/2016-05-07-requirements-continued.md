@@ -27,10 +27,12 @@ __Sample 02__
 {% endfor %}
 </ul>
 <table>
-
+  <tr>
+    <td>Name</td><td>Location</td><td>Capacity</td><td>Facilities</td>
+  </tr>
 {% for room in site.data.sample-rooms-02 %}
   <tr>
-      <td>{{ room.name }}</td><td>{{ room.location }}</td><td>{{ room.capacity }}</td><td>{{ room.facilities }}</td>
+    <td>{{ room.name }}</td><td>{{ room.location }}</td><td>{{ room.capacity }}</td><td>{{ room.facilities }}</td>
   </tr>
 {% endfor %}
 </table>
@@ -40,11 +42,21 @@ __Sample 03__
 <ul>
 {% for room in site.data.sample-rooms-03 %}
   <li>
-      {{ room.name }} | {{ room.location }} | {{ room.capacity }} | {{ room.facilities }}
+    {{ room.name }} | {{ room.location }} | {{ room.capacity }} | {{ room.facilities }}
   </li>
 {% endfor %}
 </ul>
 
+<table>
+  <tr>
+    <td>Name</td><td>Location</td><td>Capacity</td><td>Facilities</td>
+  </tr>
+{% for room in site.data.sample-rooms-03 %}
+  <tr>
+    <td>{{ room.name }}</td><td>{{ room.location }}</td><td>{{ room.capacity }}</td><td>{{ room.facilities }}</td>
+  </tr>
+{% endfor %}
+</table>
 
 
 ## Cucumber Features
