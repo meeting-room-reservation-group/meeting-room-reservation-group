@@ -79,3 +79,4 @@ Scenario: Jeff returns a faulty microwave
     When he returns the microwave
     Then Jeff should be refunded 100 USD
 {% endhighlight %}
+
