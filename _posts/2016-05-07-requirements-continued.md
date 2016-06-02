@@ -1,11 +1,30 @@
+---
+layout: post
+title: Requirements Continued
+---
+Based on the initial vague {% post_url 2016-05-04-requirements %} you probably have some questions. 
+
+
+## Questions
 
 __How to identify different rooms?__
 
 - Each room has a location code (identification).
 - Some rooms have a name.
 
+__How big is the meeting room?__ 
+
+- For every room the number of persons that can use it together (for a meeting) is known.
+
+__Is the number of rooms / facilities known?__
+
+- During startup of the service(s), the configuration of rooms and facilities can be loaded. 
+
 
 ## Sample Data
+
+Below are three samples given of concrete data, for rooms and their possible facility.
+
 
 __Sample 01__
 
@@ -47,7 +66,18 @@ __Sample 03__
 </table>
 
 
-## Cucumber Features
+## Create Cucumber Features
+
+{% highlight plain %}
+Feature: Refund item
+
+Scenario: Jeff returns a faulty microwave
+    Given Jeff has bought a microwave for $100
+    And he has a receipt
+    When he returns the microwave
+    Then Jeff should be refunded $100
+{% endhighlight %}
+
 
 ### Feature - Xxx 
 
