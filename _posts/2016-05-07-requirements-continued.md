@@ -2,7 +2,7 @@
 layout: post
 title: Requirements Continued
 ---
-Based on the initial vague _reference_ you probably have some questions. 
+Based on the initial vague [Requirements]({% post_url 2016-05-04-requirements %}) you probably have some questions. 
 
 
 ## Questions
