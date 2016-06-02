@@ -70,7 +70,7 @@ __Sample 03__
 
 Based on the requirements, questions, answers and sample data create scenarios in Cucumber [Gherkin](https://cucumber.io/docs/reference) format. 
 
-{% highlight plain %}
+{% highlight plain text %}
 Feature: Refund item
 
 Scenario: Jeff returns a faulty microwave
