@@ -9,23 +9,19 @@ __How to identify different rooms?__
 
 __Sample 01__
 
-<ul>
+<table>
+  <tr>
+    <td>Name</td><td>Location</td><td>Capacity</td><td>Facilities</td>
+  </tr>
 {% for room in site.data.sample-rooms-01 %}
-  <li>
-      {{ room.name }} | {{ room.location }} | {{ room.capacity }} | {{ room.facilities }}
-  </li>
+  <tr>
+    <td>{{ room.name }}</td><td>{{ room.location }}</td><td>{{ room.capacity }}</td><td>{{ room.facilities }}</td>
+  </tr>
 {% endfor %}
-</ul>
+</table>
 
 __Sample 02__
 
-<ul>
-{% for room in site.data.sample-rooms-02 %}
-  <li>
-      {{ room.name }} | {{ room.location }} | {{ room.capacity }} | {{ room.facilities }}
-  </li>
-{% endfor %}
-</ul>
 <table>
   <tr>
     <td>Name</td><td>Location</td><td>Capacity</td><td>Facilities</td>
@@ -38,14 +34,6 @@ __Sample 02__
 </table>
 
 __Sample 03__
-
-<ul>
-{% for room in site.data.sample-rooms-03 %}
-  <li>
-    {{ room.name }} | {{ room.location }} | {{ room.capacity }} | {{ room.facilities }}
-  </li>
-{% endfor %}
-</ul>
 
 <table>
   <tr>
