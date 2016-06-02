@@ -68,6 +68,8 @@ __Sample 03__
 
 ## Create Cucumber Features
 
+Based on the requirements, questions, answers and sample data create scenarios in Cucumber [Gherkin](https://cucumber.io/docs/reference) format. 
+
 {% highlight plain %}
 Feature: Refund item
 
@@ -77,13 +79,3 @@ Scenario: Jeff returns a faulty microwave
     When he returns the microwave
     Then Jeff should be refunded $100
 {% endhighlight %}
-
-
-### Feature - Xxx 
-
-__Scenario__ - 
-
-__Given__
-__When__
-__Then__
-
