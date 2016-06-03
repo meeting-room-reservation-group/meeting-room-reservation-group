@@ -73,7 +73,7 @@ This project can now be imported into Eclipse as an existing Maven project.
 ### Verify the Project
 
 The project created through the Maven Archetype `jersey-quickstart-webapp` should now look similar as seen in the screenshot. Make sure the Eclipse Perspective _Java EE_ is active.   
-[![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00-s.jpeg)][{{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00.jpeg)]
+[![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00-s.jpeg)]({{ site.url }}/images/eclipse/eclipse-new-maven-project-jersey-quickstart-webapp-00.jpeg)
 
 - The Markers window shows one _JSP Problem_, to fix this add the Maven dependency `javax.servlet-api`
 - Open the file `pom.xml` and add the required dependency  
