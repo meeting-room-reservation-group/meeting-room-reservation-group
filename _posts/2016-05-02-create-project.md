@@ -95,7 +95,7 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-00.jpeg)
 - This will launch Jetty as seen in the console
   __WARNING__ Make sure you see the red line ending with: _SelectChannelConnector@0.0.0.0:8080_ This indicates that Jetty has successfully started.
-![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01.jpeg)
+[![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01.jpeg)
 
 __Verify the Web Application with a (Graphical) Web Browser__
 
@@ -128,4 +128,4 @@ In the Jetty console, you can enter commands like:
 - stop - Stops Jetty (or use the small red stop rectangle, from the speed button bar menu)
 - restart - reloads the Web Application(s) that are deployed in this Jetty instance
 
-![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05.jpeg)
+[![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-05.jpeg)
