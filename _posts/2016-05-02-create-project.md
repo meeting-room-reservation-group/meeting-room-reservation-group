@@ -94,7 +94,7 @@ __INFO__ Make sure the [Eclipse Jetty feature](http://verhagen.github.io/eclipse
 - Go to the window _Project Explorer_ and on the project (here _meeting-room-reservation-services_) use the context menu: _Run As > Run with Jetty_
 ![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-00.jpeg)
 - This will launch Jetty as seen in the console
-  __WARNING__ Make sure you see the red line ending with: _SelectChannelConnector@0.0.0.0:8080_ This indicates that Jetty has successfully started.
+  __WARNING__ Make sure you see the red line ending with: _SelectChannelConnector@0.0.0.0:8080_ This indicates that Jetty has successfully started.  
 [![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-as-run-with-jetty-01.jpeg)
 
 __Verify the Web Application with a (Graphical) Web Browser__
