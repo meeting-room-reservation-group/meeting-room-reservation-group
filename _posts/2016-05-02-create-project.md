@@ -15,7 +15,7 @@ Maven Archetypes for [Jersey](https://jersey.java.net/documentation/latest/getti
 
 ### Create Project Structure
 
-Use the Maven Archetype with group-id `org.glassfish.jersey.archetype` and artifact-id `jersey-quickstart-webapp` for creation
+Use the Maven Archetype with group-id `org.glassfish.jersey.archetypes` and artifact-id `jersey-quickstart-webapp` for creation
 of the initial project structure.
 
 __Using Eclipse__
@@ -54,7 +54,21 @@ __TIP__: In case the Maven Archetype is not found, [add the Maven Archetypes Cat
 
 __Using Maven Command Line__
 
-TODO
+For those not using Eclipse the same thing can be done from the command-line, using the [Maven Archetype Plugin](http://maven.apache.org/archetype/maven-archetype-plugin/). This plug-in has the goal [archetype:generate](http://maven.apache.org/archetype/maven-archetype-plugin/generate-mojo.html) which creates a new Maven project, based on the Archetype.
+
+Go to the directory `git`
+
+	cd $HOME/git
+	
+Use Maven to generate to create the project structure 
+
+    mvn  archetype:generate  -DgroupId=com.github.john.meeting-room-reservation  -DartifactId=meeting-room-reservation-services \
+        -DarchetypeGroupId=org.glassfish.jersey.archetypes  -DarchetypeArtifactId=jersey-quickstart-webapp    -DarchetypeVersion=2.23 \
+        -DinteractiveMode=false \
+        -DarchetypeCatalog=https://repo1.maven.org/maven2/archetype-catalog.xml
+
+This project can now be imported into Eclipse as an existing Maven project.
+
 
 ### Verify the Project
 
