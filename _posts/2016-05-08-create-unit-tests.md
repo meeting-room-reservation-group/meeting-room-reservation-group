@@ -12,6 +12,9 @@ Unit Test Cases. From these initial requirements there are a few nouns, that eve
 
 
 - Add first test class `FacilityTest`
+- Use the Java template `test` in Eclipse (from JUnit 4), to create a new test method.
+- There are now a lot of errors, this is because the JUnit 4 library is not yet imported.
+- Add the missing dependency to the `pom.xml`
 
 {% highlight java %}
 package com.github.verhagen.mrrs.domain;
@@ -86,6 +89,8 @@ public class FacilityTest {
 {% highlight java %}
 {% endhighlight %}
 
+
+- Add an unit test, which has facilities.
 
 {% highlight java %}
     @Test
