@@ -22,20 +22,20 @@ import org.junit.Test;
 
 public class FacilityTest {
 
-	@Test
-	public void createComputerWithLargeScreen() throws Exception {
-		Facitlity facility = new Facility("Computer with large screen");
-		
-		assertEquals("Computer with large screen", facility.getName());
-	}
+    @Test
+    public void createComputerWithLargeScreen() throws Exception {
+        Facitlity facility = new Facility("Computer with large screen");
+        
+        assertEquals("Computer with large screen", facility.getName());
+    }
 
 
-	@Test
-	public void createWhiteborad() throws Exception {
-		Facitlity facility = new Facility("Whiteboard");
-		
-		assertEquals("Computer with large screen", facility.getName());
-	}
+    @Test
+    public void createWhiteborad() throws Exception {
+        Facitlity facility = new Facility("Whiteboard");
+        
+        assertEquals("Computer with large screen", facility.getName());
+    }
 
 }
 {% endhighlight %}
