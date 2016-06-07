@@ -8,7 +8,10 @@ Unit Test Cases. From these initial requirements there are a few nouns, that eve
 
 ## Action Plan
 
-- Todo
+- Create the unit test cases source directory `src/test/java`.
+
+- Create the package `com.github.<user-id>.mrrs.domain`, in the new unit test sources directory.  
+  Replace `<user-id>` with your github user name.
 
 
 - Add first test class `FacilityTest`
