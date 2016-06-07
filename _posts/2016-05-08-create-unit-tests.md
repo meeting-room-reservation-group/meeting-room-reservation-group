@@ -47,17 +47,17 @@ public class FacilityTest {
 - Add another test class `RoomTest` begin with a positive test
 
 {% highlight java %}
-	@Test
-	public void createBasicRoom() throws Exception {
-		String name = "Berlin";
-		String location = "01.02";
-		int capacity = 12;
-		Room room = new Room(name, location, capacity);
-		
-		assertEquals(room.getName(), name);
-		assertEquals(room.getLocation(), location);
-		assertEquals(room.getCapacity(), capacity);
-	}
+    @Test
+    public void createBasicRoom() throws Exception {
+        String name = "Berlin";
+        String location = "01.02";
+        int capacity = 12;
+        Room room = new Room(name, location, capacity);
+        
+        assertEquals(room.getName(), name);
+        assertEquals(room.getLocation(), location);
+        assertEquals(room.getCapacity(), capacity);
+    }
 {% endhighlight %}
 
 - Implement the class `Room`
@@ -65,19 +65,19 @@ public class FacilityTest {
 - Add some unit tests which check, that the required fields are given and / or are valid.
 
 {% highlight java %}
-	@Test(expected = IllegalArgumentException.class)
-	public void createBasicRoomNoLocation() throws Exception {
-		String location = null;
-		int capacity = 12;
-		new Room(location, capacity);
-	}
+    @Test(expected = IllegalArgumentException.class)
+    public void createBasicRoomNoLocation() throws Exception {
+        String location = null;
+        int capacity = 12;
+        new Room(location, capacity);
+    }
 
-	@Test(expected = IllegalArgumentException.class)
-	public void createBasicRoomNegativeCapacity() throws Exception {
-		String location = null;
-		int capacity = -2;
-		new Room(location, capacity);
-	}
+    @Test(expected = IllegalArgumentException.class)
+    public void createBasicRoomNegativeCapacity() throws Exception {
+        String location = null;
+        int capacity = -2;
+        new Room(location, capacity);
+    }
 {% endhighlight %}
 
 - Improve the implementation of `Room`
