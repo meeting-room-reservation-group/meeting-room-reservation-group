@@ -13,7 +13,7 @@ Unit Test Cases. From these initial requirements there are a few nouns, that eve
 
 - Add first test class `FacilityTest`
 
-{% highlight plain text %}
+{% highlight java %}
 package com.github.verhagen.mrrs.domain;
 
 import static org.junit.Assert.*;
