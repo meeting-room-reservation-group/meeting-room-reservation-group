@@ -62,7 +62,7 @@ public class FacilityTest {
 
 - Implement the class `Room`
 
-- Add some unit tests which check, that the required fields are given and / or are valid.
+- Add some unit tests which check, that the required fields are given and / or are valid. The reuired field are: `location` and `capacity`.
 
 {% highlight java %}
     @Test(expected = IllegalArgumentException.class)
