@@ -93,11 +93,11 @@ public class FacilityTest {
 {% endhighlight %}
 
 
-- Add an unit test, which has facilities.
+- Add an unit test, where the room has facilities.
 
 {% highlight java %}
     @Test
-    public void createSimpleRoom() throws Exception {
+    public void createRoomWithFacilities() throws Exception {
         String name = "Moscow";
         String location = "02.04";
         int capacity = 10;
@@ -112,3 +112,20 @@ public class FacilityTest {
         assertEquals(room.getFacilities(), facilities);
     }
 {% endhighlight %}
+
+- This unit test does not run, as it fails already, before the assertEquals!!!
+- An extra function `compareTo(Facility other)` is needed, so facilities can be compared to each other. Meaning to order them. Which is needed when adding them to a set.
+- Create a unit test for the new functionality, of the class `Facility`
+
+{% highlight java %}
+    @Test
+    public void compare() throws Exception {
+        Facility whiteboard = new Facility("whiteboard");
+        Facility beamer = new Facility("beamer");
+        assertTrue(whiteboard.compareTo(beamer) > 0);
+        assertTrue(beamer.compareTo(whiteboard) < 0);
+    }
+{% endhighlight %}
+
+- Add the implementation for `Facility`
+- Add the implementation for `Room`
