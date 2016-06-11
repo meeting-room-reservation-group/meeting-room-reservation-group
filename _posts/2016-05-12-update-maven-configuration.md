@@ -20,7 +20,7 @@ is up to date.
     </properties>
 {% endhighlight %}
 
-__TIP__ Setting this project property `jersey.version`, does change the version of the managed dependency `jersey-bom`, look-up the dependency to check where the property is used. Using a property in the project can by the macro {% raw %}${property-name}{% endraw %}, so look for `$jersey.version`.
+__TIP__ Setting this project property `jersey.version`, does change the version of the managed dependency `jersey-bom`, look-up the dependency to check where the property is used. Using a property in the project can by the macro `{% raw %}${property-name}{% endraw %}`, so look for `{% raw %}${jersey.version}{% endraw %}`.
 
 - Commit this change to git.
 - Set the [source and output encoding to UTF-8](http://verhagen.github.io/maven-project-properties/).
