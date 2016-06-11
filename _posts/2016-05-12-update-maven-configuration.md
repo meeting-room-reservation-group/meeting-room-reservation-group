@@ -12,13 +12,15 @@ is up to date.
 
 ### Maven Project Properties
 
-- Check that (currently) latest stable version `2.23.1` of [Jersey](https://jersey.java.net/) is used and update if it's an older version.
+- Check that (currently) latest stable version `2.23.1` of [Jersey](https://jersey.java.net/) is used and update it, if an older version is used.
 
 {% highlight plain text %}
     <properties>
         <jersey.version>2.23.1</jersey.version>
     </properties>
 {% endhighlight %}
+
+__TIP__ Setting this project property `jersey.version`, does change the version of the managed dependency `jersey-bom`, look-up the dependency to check where the property is used. Using a property in the project can by the macro `${property-name}`, so look for `${jersey.version}`.
 
 - Commit this change to git.
 - Set the [source and output encoding to UTF-8](http://verhagen.github.io/maven-project-properties/).
