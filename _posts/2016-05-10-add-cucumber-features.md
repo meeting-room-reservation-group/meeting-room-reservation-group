@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Add Cucumber
+title: Add Cucumber Features
 ---
-Introduction
+After thinking about the requirements, it time to create the Cucumber feature files.
 
 
 ## Action Plan
