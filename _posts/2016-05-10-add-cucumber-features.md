@@ -70,10 +70,10 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = { "html:target/cucumber/report.html", "json:target/cucumber-report.json" }, 
-		features = { "src/it/resources/" })
+        plugin = { "html:target/cucumber/report.html", "json:target/cucumber-report.json" }, 
+        features = { "src/it/resources/" })
 public class RunCucumberTests {
-	// No implementation required
+    // No implementation required
 }
 {% endhighlight %}
 
@@ -93,7 +93,7 @@ Feature: Rooms require a location and capacity. Optional they have a name and fa
 
 Scenario: Room can be found by location
 Given a room with name "Berlin", location "1.12" and capacity 12 
-	And which has facility "whiteboard"
+    And which has facility "whiteboard"
 When searching for room with location "1.12"
 Then the room with name "Berlin" should be returned
 {% endhighlight %}
