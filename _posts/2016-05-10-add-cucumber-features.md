@@ -34,9 +34,9 @@ To make it possible to run these [Specification by Example]()s,
   `mkdir  src/it/resources`
 
 - Add the new directories as Eclipse source Folders  
-  Select both directories `java` and `resources` and the the mouse menu: _Build Path > Use as Source Folder_ 
+  Select both directories `java` and `resources` and use the mouse menu: _Build Path > Use as Source Folder_ 
 
-- Add [Maven failsafe plug-in](http://maven.apache.org/surefire/maven-failsafe-plugin/)
+- Add [Maven failsafe plug-in](http://maven.apache.org/surefire/maven-failsafe-plugin/) to the Maven Project Configuration `pom.xml`
 
 {% highlight plain text %}
             <plugin>
@@ -55,7 +55,7 @@ To make it possible to run these [Specification by Example]()s,
 {% endhighlight %}
 
 
-- Create a package with a name similar as the package name in `src/main/java`.  
+- Create a Java package with a name similar as the package name in `src/main/java`.  
   The top level package name for the project is `com.github.<github-user>.mrrs`.  
   Create a new package name in `src/it/java` for the integration tests `com.github.<github-user>.mrrs.it`
  
