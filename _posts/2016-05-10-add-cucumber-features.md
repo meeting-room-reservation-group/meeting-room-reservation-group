@@ -126,7 +126,7 @@ public class RoomSteps {
   This will show in the view _Console_, which Cucumber steps are still needed to be implemented. 
 ![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00.jpeg)
 ![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-01.jpeg)
-![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00.jpeg)
+![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-02.jpeg)
 
 ### Run Cucumber through Eclipse JUnit
 
