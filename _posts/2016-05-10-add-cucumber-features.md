@@ -64,7 +64,8 @@ To make it possible to run these [Specification by Example]()s,
 
 - Create a Java package with a name similar as the package name in `src/main/java`.  
   The top level package name for the project is `com.github.<github-user>.mrrs`.  
-  Create a new package name in `src/it/java` for the integration tests `com.github.<github-user>.mrrs.it`
+  Create a new package name in `src/it/java` for the integration tests `com.github.<github-user>.mrrs.it`.  
+  Inside this Java package the _Integration Test_ related classes will be added.
  
 - Create a new class, in the package `com.github.<github-user>.mrrs.it`, that will run Cucumber feature files.
   Give this class a clear name like `RunCucumberTests`.
@@ -113,4 +114,23 @@ public class RoomSteps {
 
 }
 {% endhighlight %}
+
+
+## Check the Set Up
+
+### Run Cucumber through Eclipse Cucumber
+
+- Open the file `room.feature`.
+- Use the right mouse button in the file editor, or on the file `room.feature`, in the view _Project Explorer_ / _Package Explorer_.
+  Use the menu: _Run As > Cucumber Feature_  
+  This will show in the view _Console_, which Cucumber steps are still needed to be implemented. 
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00.jpeg)
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-01.jpeg)
+![Eclipse New Project Wizard]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00.jpeg)
+
+### Run Cucumber through Eclipse JUnit
+
+
+### Run Cucumber through Eclipse Maven
+
 
