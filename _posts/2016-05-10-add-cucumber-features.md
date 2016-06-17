@@ -123,7 +123,7 @@ public class RoomSteps {
 - Open the file `room.feature`.
 - Use the right mouse button in the file editor, or on the file `room.feature`, in the view _Project Explorer_ / _Package Explorer_.
   Use the menu: _Run As > Cucumber Feature_  
-  This will show in the view _Console_, which Cucumber steps are still needed to be implemented.
+  This will show in the view _Console_, which Cucumber steps are still needed to be implemented.  
 [![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-00.jpeg.jpeg)
 [![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-01-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-01.jpeg.jpeg)
 [![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-02-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-02.jpeg.jpeg)
