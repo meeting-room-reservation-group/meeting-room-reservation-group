@@ -132,9 +132,9 @@ public class RoomSteps {
 
 ### Run Cucumber through Eclipse JUnit
 
-__TIP__ To just only run the Cucumber Examples, select the `RunCucumberTests` class, from the view _Package Explorer_ or _Project Explorer_ and the use context menu: _Run As -> JUnit Test_
-![Eclipse Run Cucumber Examples as JUnit]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-10.jpeg)
-![Eclipse Run Cucumber Examples as JUnit]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-11.jpeg)
+__TIP__ To just only run the Cucumber Examples, select the `RunCucumberTests` class, from the view _Package Explorer_ or _Project Explorer_ and the use context menu: _Run As -> JUnit Test_  
+  [![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-10-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-10.jpeg)
+  [![Eclipse Run Cucumber Examples]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-11-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-run-cucumber-examples-junit-11.jpeg)
 
 
 ### Run Cucumber through Eclipse Maven
