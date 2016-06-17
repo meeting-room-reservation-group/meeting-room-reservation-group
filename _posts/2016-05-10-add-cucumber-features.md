@@ -4,7 +4,7 @@ title: Add Cucumber Features
 ---
 After thinking about the [requirements]({% post_url 2016-05-04-requirements %}), it time to create the Cucumber feature files. And add them to the project.
 
-To make it possible to run these [Specification by Example]()s,   
+To make it possible to run these [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example)s, the library [Cucumber](https://cucumber.io/)  (for [Java Virtual Machine](https://github.com/cucumber/cucumber-jvm)) is used.
 
 
 ## Action Plan
