@@ -36,7 +36,8 @@ To make it possible to run these [Specification by Example]()s,
 - Add the new directories as Eclipse source Folders  
   Select both directories `java` and `resources` and use the mouse menu: _Build Path > Use as Source Folder_ 
 
-- Add [Maven failsafe plug-in](http://maven.apache.org/surefire/maven-failsafe-plugin/) to the Maven Project Configuration `pom.xml`
+- Add [Maven failsafe plug-in](http://maven.apache.org/surefire/maven-failsafe-plugin/) to the Maven Project Configuration `pom.xml`  
+  __WARNING__ The Maven failsafe plug-in is a general _Integration Test_ plug-in, by default is scans for [test classes with specific patterns](http://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html). The class `RunCucumberTests` does _NOT_ fall in the pattern, so configuration is required. The Java test classes are not in a default Maven test classes directory `src/test/java`, so configration is needed.
 
 {% highlight plain text %}
             <plugin>
@@ -50,6 +51,12 @@ To make it possible to run these [Specification by Example]()s,
                             <goal>verify</goal>
                         </goals>
                     </execution>
+                    <configuration>
+                        <includes>
+                            <include>*RunCucumberTests.java</include>
+                        </includes>
+                        <testSourceDirectory>src/it/java</testSourceDirectory>
+                    </configuration>
                 </executions>
             </plugin>
 {% endhighlight %}
