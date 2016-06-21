@@ -46,16 +46,17 @@ To make it possible to run these [Specification by Example](https://en.wikipedia
                 <version>2.19.1</version>
                 <executions>
                     <execution>
+                        <id>run-integration-tests</id>
                         <goals>
                             <goal>integration-test</goal>
                             <goal>verify</goal>
                         </goals>
-	                    <configuration>
-	                        <includes>
-	                            <include>*RunCucumberTests.java</include>
-	                        </includes>
-	                        <testSourceDirectory>src/it/java</testSourceDirectory>
-	                    </configuration>
+                        <configuration>
+                            <includes>
+                                <include>*RunCucumberTests.java</include>
+                            </includes>
+                            <testSourceDirectory>src/it/java</testSourceDirectory>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
