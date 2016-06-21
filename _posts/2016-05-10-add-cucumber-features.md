@@ -4,7 +4,7 @@ title: Add Cucumber Features
 ---
 After thinking about the [requirements]({% post_url 2016-05-04-requirements %}), it time to create the Cucumber feature files. And add them to the project.
 
-To make it possible to run these [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example)s, the library [Cucumber](https://cucumber.io/)  (for [Java Virtual Machine](https://github.com/cucumber/cucumber-jvm)) is used.
+To make it possible to run these [Specification by Example](https://en.wikipedia.org/wiki/Specification_by_example)s, [Cucumber](https://cucumber.io/) is used. The library [Cucumber for Java Virtual Machine](https://github.com/cucumber/cucumber-jvm)) contains the Java implementation.
 
 
 ## Action Plan
@@ -50,13 +50,13 @@ To make it possible to run these [Specification by Example](https://en.wikipedia
                             <goal>integration-test</goal>
                             <goal>verify</goal>
                         </goals>
+	                    <configuration>
+	                        <includes>
+	                            <include>*RunCucumberTests.java</include>
+	                        </includes>
+	                        <testSourceDirectory>src/it/java</testSourceDirectory>
+	                    </configuration>
                     </execution>
-                    <configuration>
-                        <includes>
-                            <include>*RunCucumberTests.java</include>
-                        </includes>
-                        <testSourceDirectory>src/it/java</testSourceDirectory>
-                    </configuration>
                 </executions>
             </plugin>
 {% endhighlight %}
