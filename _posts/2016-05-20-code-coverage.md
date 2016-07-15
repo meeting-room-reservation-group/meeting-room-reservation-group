@@ -69,7 +69,7 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
 - Use the context menu: _Coverage As > JUnit Test_
 - Now the class `RoomRepository` should be 100% covered
 - Not all `src/main/java` classes are 100% covered. Inspect the class `Room`.  
-  !  
+    [![Eclipse Run Cucumber Examples with JUnit]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02.jpeg)  
   In the constructor of `Room` there is a check `capacity <= 0`, that is never hit with a value smaller or equal to `0`. Therefor the background of the inner if statement is red. Looking opening the class `RoomTest` reveals that there is a test case for this situation.
 
 {% highlight java %}
