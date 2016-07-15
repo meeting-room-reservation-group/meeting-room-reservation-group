@@ -55,10 +55,10 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
   Override the method `public String toString()`
   
 {% highlight java %}
-	@Override
-	public String toString() {
-		// TODO Fill in the details
-	}
+    @Override
+    public String toString() {
+        // TODO Fill in the details
+    }
 {% endhighlight %}
 
 
