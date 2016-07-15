@@ -62,8 +62,15 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
 {% endhighlight %}
 
 
+## Discovering a Hidden Mistake
 
-### Discovering a Hidden Mistake
+- After adding the missing test cases and writing a nice output for the class `Room`, let run again the _Code Coverage_, but now over all the classes.
+- Select in the view _Package Explorer_ or _Project Explorer_ the project `meeting-room-reservation-services`.
+- Use the context menu: _Coverage As > JUnit Test_
+- Now the class `RoomRepository` should be 100% covered
+- Not all `src/main/java` classes are 100% covered. Inspect the class `Room`.  
+  !  
+  In the constructor of `Room` there is a check `capacity <= 0`, that is never hit with a value smaller or equal to `0`. Therefor the background of the inner if statement is red. Looking opening the class `RoomTest` reveals that there is a test case for this situation.
 
 {% highlight java %}
     @Test(expected = IllegalArgumentException.class)
@@ -73,3 +80,12 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
         new Room(location, capacity);
     }
 {% endhighlight %}
+
+- Why is this not working as intended?
+- How to fix the issue?
+- What improvement(s) do you see?
+
+## Is the Code Coverage now Up To Date ?
+
+- Run the Code Coverage again over the hole code base (of the project `meeting-room-reservation-services`).
+- Can the Code Coverage still be improved? (skip the class `MyResource`)
