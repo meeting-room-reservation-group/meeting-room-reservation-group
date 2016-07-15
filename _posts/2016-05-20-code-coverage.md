@@ -49,9 +49,17 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
     }
 {% endhighlight %}
 
-- Probably the class `Room` is missing a nice output string and will show it's output as `There is already a room registered with the location '01.12'. Registered room details 'com.github.verhagen.mrrs.domain.Room@40993028'`.  
+- Probably the class `Room` is missing a nice output string and will show something like `There is already a room registered with the location '01.12'. Registered room details 'com.github.verhagen.mrrs.domain.Room@40993028'`.  
 
-- Override the method `public String toString()`
+- Creating a nice output text for an Object  
+  Override the method `public String toString()`
+  
+{% highlight java %}
+	@Override
+	public String toString() {
+		// TODO Fill in the details
+	}
+{% endhighlight %}
 
 
 
