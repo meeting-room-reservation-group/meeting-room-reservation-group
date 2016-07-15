@@ -19,9 +19,9 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
 
 - In the view _Project Explorer_ or _Package Explorer_, go to the _unit test_ classes.
 - Use the context menu (on the `RoomRepositoryTest`): _Coverage As > JUnit Test_  
-  [![Eclipse Run Cucumber Examples with JUnit]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-00-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-00.jpeg)  
+  [![Eclipse Run Code Coverage]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-00-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-00.jpeg)  
   When the _Coverage Run_ is finished, the view _Coverage_ shows the percentages of code that are covered by a _unit test_.  
-  [![Eclipse Run Cucumber Examples with JUnit]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-01-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-01.jpeg)  
+  [![Eclipse Run Code Coverage]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-01-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-01.jpeg)  
   The class `RoomRepository` has a coverage of 71%, inspecting the related code, shows that there is no _unit tests_ that covers the two exception cases, in the method `public void add(final Room room)`  
   __A good moment to add the missing unit tests__
 
@@ -69,8 +69,8 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
 - Use the context menu: _Coverage As > JUnit Test_
 - Now the class `RoomRepository` should be 100% covered
 - Not all `src/main/java` classes are 100% covered. Inspect the class `Room`.  
-    [![Eclipse Run Cucumber Examples with JUnit]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02.jpeg)  
-  In the constructor of `Room` there is a check `capacity <= 0`, that is never hit with a value smaller or equal to `0`. Therefor the background of the inner if statement is red. Looking opening the class `RoomTest` reveals that there is a test case for this situation.
+    [![Eclipse Run Code Coverage]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02-tn.jpeg)]({{ site.url }}/images/eclipse/eclipse-code-coverage-emma-02.jpeg)  
+  In the constructor of `Room` there is a check `capacity <= 0`, that is never hit with a value smaller or equal to `0`. Therefore the background of the inner if statement is red. Looking opening the class `RoomTest` reveals that there is a test case for this situation.
 
 {% highlight java %}
     @Test(expected = IllegalArgumentException.class)
@@ -81,7 +81,8 @@ As writer of the _unit test_ and the _code_, it is imported to see how much of t
     }
 {% endhighlight %}
 
-- Why is this not working as intended?
+- Why is this not working as intended?  
+  __TIP__: Use the Eclipse debugger, to find out why this goes wrong.
 - How to fix the issue?
 - What improvement(s) do you see?
 
