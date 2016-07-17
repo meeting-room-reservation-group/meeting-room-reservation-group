@@ -64,6 +64,6 @@ During development you like to see the results [Checking the Code Coverage]({% p
 
 - Run Maven verify  
   `mvn clean verify`  
-  This should give a HTML report in `target/site/jacoco/index.html`, which shows the details of the code coverage.
+  This should give a HTML report in `target/site/jacoco/index.html`, which shows the details of the code coverage.  
   [![Eclipse Run Code Coverage]({{ site.url }}/images/maven/jacoco-maven-plugin-report-00-tn.jpeg)]({{ site.url }}/images/maven/jacoco-maven-plugin-report-00.jpeg)
   
